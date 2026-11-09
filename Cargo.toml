@@ -1,0 +1,18 @@
+[package]
+name = "file_analyzer"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Inspect text files and emails (.msg, .eml, .mbox): metadata, inline vs regular attachments, and file-type validation"
+license = "MIT"
+readme = "README.md"
+keywords = ["email", "outlook", "msg", "eml", "mbox"]
+categories = ["command-line-utilities", "email", "parser-implementations"]
+repository = "https://github.com/<your-username>/file_analyzer"
+exclude = ["power-automate/", ".github/"]
+
+[dependencies]
+cfb = "0.16"
+codepage = "0.1.3"
+encoding_rs = "0.8.44"
+mail-parser = "0.11.9"

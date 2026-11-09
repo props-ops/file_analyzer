@@ -1,0 +1,5 @@
+# Keep sample emails byte-for-byte: Outlook .msg files are binary, and
+# .eml/.mbox files must keep their CRLF line endings on every OS.
+*.msg   binary
+*.eml   -text
+*.mbox  -text

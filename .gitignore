@@ -1,0 +1,5 @@
+/target
+/power-automate/node_modules
+/power-automate/build
+.DS_Store
+Thumbs.db
