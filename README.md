@@ -138,12 +138,6 @@ That testing found and fixed several bugs:
 - header-only MIME detection;
 - Gmail Takeout dates.
 
-## Power Automate version
-
-[`power-automate/`](power-automate/) holds the same analysis as an
-**Office Script**. It parses `.msg`/`.eml` files inside a Power Automate flow
-using only standard Microsoft 365 connectors, with no third-party add-ons and
-no Azure. It's tested under the exact TypeScript version Office Scripts uses.
 
 ## Project layout
 
